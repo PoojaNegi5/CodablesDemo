@@ -19,13 +19,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="VYg-cH-adg">
-                                <rect key="frame" x="27" y="37" width="375" height="100"/>
+                                <rect key="frame" x="27" y="37" width="321" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="Nlm-lT-Yty"/>
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder=" Enter Git Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dfa-My-qFk">
-                                <rect key="frame" x="40" y="292.5" width="375" height="40"/>
+                                <rect key="frame" x="40" y="292.5" width="295" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="0jf-I5-6Fg"/>
                                 </constraints>
@@ -34,14 +34,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Search Git Users......." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sx-Wf-BlN">
-                                <rect key="frame" x="119" y="237" width="197.5" height="25.5"/>
+                                <rect key="frame" x="89" y="237" width="197.5" height="25.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJj-np-VW0">
-                                <rect key="frame" x="217.5" y="362.5" width="120" height="30"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="127.5" y="362.5" width="120" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Ipk-U9-BPj"/>
                                     <constraint firstAttribute="width" constant="120" id="s3D-ie-GHP"/>
@@ -54,16 +54,16 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sIx-pl-XPW" userLabel="gitData">
-                                <rect key="frame" x="20" y="150" width="375" height="497"/>
+                                <rect key="frame" x="20" y="150" width="335" height="497"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eSl-js-2O0">
-                                        <rect key="frame" x="10" y="5" width="375" height="174"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eSl-js-2O0">
+                                        <rect key="frame" x="10" y="5" width="315" height="174"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="8Lj-HA-Qus" userLabel="info">
-                                        <rect key="frame" x="0.0" y="182" width="375" height="283"/>
+                                        <rect key="frame" x="10" y="182" width="325" height="283"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="tsg-K0-q7c" userLabel="labels">
-                                                <rect key="frame" x="0.0" y="0.0" width="135" height="283"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="117" height="283"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juF-kc-RdD">
                                                         <rect key="frame" x="0.0" y="0.0" width="95" height="47"/>
@@ -90,7 +90,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public  Repositories :" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nx3-Md-AkP">
-                                                        <rect key="frame" x="0.0" y="188.5" width="135" height="47.5"/>
+                                                        <rect key="frame" x="0.0" y="188.5" width="117" height="47.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -104,12 +104,12 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="3TY-94-fPW" userLabel="data">
-                                                <rect key="frame" x="145" y="0.0" width="240" height="283"/>
+                                                <rect key="frame" x="117" y="0.0" width="208" height="283"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6U-Sv-AQ4">
                                                         <rect key="frame" x="0.0" y="0.0" width="80.5" height="47"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qca-sQ-YZ8">
@@ -157,13 +157,14 @@
                                         </constraints>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSW-Rj-zE3">
-                                        <rect key="frame" x="10" y="467" width="375" height="25"/>
-                                        <color key="backgroundColor" red="0.27450980390000002" green="0.76725260419999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="10" y="467" width="315" height="25"/>
+                                        <color key="backgroundColor" red="0.93498581650000001" green="0.93225628140000005" blue="0.93509274720000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="25" id="fNe-U9-kuV"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                         <state key="normal" title="Back">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="backButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9o1-8M-svB"/>
@@ -176,7 +177,7 @@
                                     <constraint firstAttribute="trailing" secondItem="8Lj-HA-Qus" secondAttribute="trailing" id="Fel-zJ-CIO"/>
                                     <constraint firstAttribute="trailing" secondItem="eSl-js-2O0" secondAttribute="trailing" constant="10" id="Hg2-H1-iQe"/>
                                     <constraint firstItem="eSl-js-2O0" firstAttribute="leading" secondItem="sIx-pl-XPW" secondAttribute="leading" constant="10" id="KeW-UW-7dc"/>
-                                    <constraint firstItem="8Lj-HA-Qus" firstAttribute="leading" secondItem="sIx-pl-XPW" secondAttribute="leading" id="Qkg-5D-J8D"/>
+                                    <constraint firstItem="8Lj-HA-Qus" firstAttribute="leading" secondItem="sIx-pl-XPW" secondAttribute="leading" constant="10" id="Qkg-5D-J8D"/>
                                     <constraint firstItem="eSl-js-2O0" firstAttribute="height" secondItem="sIx-pl-XPW" secondAttribute="height" multiplier="0.35" id="UP8-Eh-6Z2"/>
                                     <constraint firstItem="8Lj-HA-Qus" firstAttribute="top" secondItem="eSl-js-2O0" secondAttribute="bottom" constant="3" id="UtN-vs-e5u"/>
                                     <constraint firstAttribute="bottom" secondItem="eSW-Rj-zE3" secondAttribute="bottom" constant="5" id="gMU-n3-AiB"/>
@@ -186,7 +187,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.93498581647872925" green="0.93225628137588501" blue="0.9350927472114563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="sIx-pl-XPW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="90A-36-M0c"/>
                             <constraint firstItem="dfa-My-qFk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="F1A-FB-n48"/>
